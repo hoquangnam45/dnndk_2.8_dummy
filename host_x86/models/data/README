@@ -1,0 +1,7 @@
+Please download some images from the ImageNet 2012 training dataset as calibration images for decent. 
+100 - 1000 images should be OK.
+A calibration txt file is also needed which lists the filename of each calibration images and its class number.
+For the pathes of calibration images and txt file, please refer to the float.prototxt of Resnet50. 
+You can also modify the pathes in float.protoxt based on where you put the calibration iamges and txt file in the host machine.
+For more details, please refer to the chapter 5 of UG1327. 
+If you have any questions, please post on https://forums.xilinx.com/t5/Deephi-DNNDK/bd-p/Deephi
