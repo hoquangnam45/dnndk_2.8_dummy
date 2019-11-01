@@ -72,6 +72,7 @@ cudnn_ver=`cat $cudnn_verfile | grep CUDNN_MAJOR -A 2 | head -3 | awk '{ver=ver$
 else
     echo $cudnn_verfile not exist!
     echo  "Begin to install DeePhi DNNDK tools(CPU version) on host ..."
+    pwd
     cd pkgs/${sysver} || install_fail
     cp * /usr/local/bin 
     chmod og+rx /usr/local/bin/decent || install_fail
