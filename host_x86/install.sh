@@ -104,6 +104,10 @@ array=(
  )
 for data in ${array[@]}
 do
+    echo $data
+    echo $sysver
+    echo $cuda_ver
+    echo $cudnn_ver
     if [[ $data =~ $sysver ]] && [[ $data =~ $cuda_ver ]] && [[ $data =~ $cudnn_ver ]] ; then
         echo  "Begin to install DeePhi DNNDK tools on host ..."
         cd pkgs/${data} || install_fail
