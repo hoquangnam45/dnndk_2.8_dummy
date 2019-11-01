@@ -43,7 +43,7 @@ echo $sysver
 
 
 cuda_verfile="/usr/local/cuda/version.txt"
-cudnn_verfile="/usr/local/cuda/include/cudnn.h"
+cudnn_verfile="/usr/include/cudnn.h"
 cuda_ver=
 cudnn_ver=
 
